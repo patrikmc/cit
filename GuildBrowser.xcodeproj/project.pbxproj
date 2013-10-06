@@ -15,6 +15,9 @@
 		4C4A21BA17FEA249003FAFA7 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A21B817FEA249003FAFA7 /* character.json */; };
 		4C4A21BB17FEA249003FAFA7 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C4A21B917FEA249003FAFA7 /* guild.json */; };
 		4C4A21BD17FEA289003FAFA7 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4A21BC17FEA289003FAFA7 /* CharacterTests.m */; };
+		4C4A21BE18019A1A003FAFA7 /* WoWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2B15E9B34900B3713E /* WoWUtils.m */; };
+		4C4A21BF18019A34003FAFA7 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD1715E9B34900B3713E /* Character.m */; };
+		4C4A21C018019A37003FAFA7 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9FDD2315E9B34900B3713E /* Item.m */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -499,8 +502,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C4A21C018019A37003FAFA7 /* Item.m in Sources */,
 				4C4A21B017FE2170003FAFA7 /* GBTests.m in Sources */,
 				4C4A21BD17FEA289003FAFA7 /* CharacterTests.m in Sources */,
+				4C4A21BE18019A1A003FAFA7 /* WoWUtils.m in Sources */,
+				4C4A21BF18019A34003FAFA7 /* Character.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
