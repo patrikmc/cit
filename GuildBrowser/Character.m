@@ -32,7 +32,7 @@
         
         _neckItem = [Item initWithData:data[@"items"][@"neck"]];
         _wristItem = [Item initWithData:data[@"items"][@"wrist"]];
-        _waistItem = [Item initWithData:data[@"items"][@"wrist"]];
+        _waistItem = [Item initWithData:data[@"items"][@"waist"]];
         _handsItem = [Item initWithData:data[@"items"][@"hands"]];
         _shoulderItem = [Item initWithData:data[@"items"][@"shoulder"]];
         _chestItem = [Item initWithData:data[@"items"][@"chest"]];
